@@ -1,0 +1,15 @@
+module alu(O,i1,i2,AluOP,reset,CLK);
+
+input [31:0] i1,i2;
+input [2:0] AluOP;
+output [31:0] O;
+wire[31:0] wADD,wXOR,wSUB,wMOD,wNOR,wAND,wOR;
+wire wSLT;
+input reset;
+input CLK;
+
+wire cout;
+
+subtractor_32bit subb(wSUB , i1 , i2 , 32'b00000000000000000000000000000000 , 1'b0);
+
+endmodule

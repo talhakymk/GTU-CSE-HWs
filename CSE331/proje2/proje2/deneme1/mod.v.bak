@@ -1,0 +1,14 @@
+module mod(input wire clk , input wire reset);
+	parameter s0 = 0;
+	parameter s1 = 1;
+	parameter s2 = 2;
+	
+	reg [1:0] state;
+	reg [1:0] next_state;
+	
+	always@(posedge clk) begin
+		if(reset)
+			state <= 0;
+		else
+			state <= next_state;
+end 

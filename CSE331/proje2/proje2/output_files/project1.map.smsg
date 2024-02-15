@@ -1,0 +1,13 @@
+Info (10281): Verilog HDL Declaration information at four_bit_comp.v(1): object "G" differs only in case from object "g" in the same scope File: C:/Users/mstrk/Desktop/deneyis/deneme1/four_bit_comp.v Line: 1
+Info (10281): Verilog HDL Declaration information at four_bit_comp.v(1): object "L" differs only in case from object "l" in the same scope File: C:/Users/mstrk/Desktop/deneyis/deneme1/four_bit_comp.v Line: 1
+Info (10281): Verilog HDL Declaration information at four_bit_comp.v(1): object "E" differs only in case from object "e" in the same scope File: C:/Users/mstrk/Desktop/deneyis/deneme1/four_bit_comp.v Line: 1
+Info (10281): Verilog HDL Declaration information at eight_bit_comp.v(1): object "G" differs only in case from object "g" in the same scope File: C:/Users/mstrk/Desktop/deneyis/deneme1/eight_bit_comp.v Line: 1
+Info (10281): Verilog HDL Declaration information at eight_bit_comp.v(1): object "L" differs only in case from object "l" in the same scope File: C:/Users/mstrk/Desktop/deneyis/deneme1/eight_bit_comp.v Line: 1
+Info (10281): Verilog HDL Declaration information at eight_bit_comp.v(1): object "E" differs only in case from object "e" in the same scope File: C:/Users/mstrk/Desktop/deneyis/deneme1/eight_bit_comp.v Line: 1
+Info (10281): Verilog HDL Declaration information at sixteen_bit_comp.v(1): object "G" differs only in case from object "g" in the same scope File: C:/Users/mstrk/Desktop/deneyis/deneme1/sixteen_bit_comp.v Line: 1
+Info (10281): Verilog HDL Declaration information at sixteen_bit_comp.v(1): object "L" differs only in case from object "l" in the same scope File: C:/Users/mstrk/Desktop/deneyis/deneme1/sixteen_bit_comp.v Line: 1
+Info (10281): Verilog HDL Declaration information at sixteen_bit_comp.v(1): object "E" differs only in case from object "e" in the same scope File: C:/Users/mstrk/Desktop/deneyis/deneme1/sixteen_bit_comp.v Line: 1
+Info (10281): Verilog HDL Declaration information at thirtytwo_bit_comp.v(1): object "G" differs only in case from object "g" in the same scope File: C:/Users/mstrk/Desktop/deneyis/deneme1/thirtytwo_bit_comp.v Line: 1
+Info (10281): Verilog HDL Declaration information at thirtytwo_bit_comp.v(1): object "L" differs only in case from object "l" in the same scope File: C:/Users/mstrk/Desktop/deneyis/deneme1/thirtytwo_bit_comp.v Line: 1
+Info (10281): Verilog HDL Declaration information at thirtytwo_bit_comp.v(1): object "E" differs only in case from object "e" in the same scope File: C:/Users/mstrk/Desktop/deneyis/deneme1/thirtytwo_bit_comp.v Line: 1
+Warning (10268): Verilog HDL information at mod_fsm_dp.v(5): always construct contains both blocking and non-blocking assignments File: C:/Users/mstrk/Desktop/deneyis/deneme1/mod_fsm_dp.v Line: 5

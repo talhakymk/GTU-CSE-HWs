@@ -1,0 +1,17 @@
+module my_testbench();
+	reg a;
+	reg b;
+	wire result;
+	my_xor xor1(result , a, b);
+	initial begin
+		#0 a = 0; b = 0;
+		#5 $display(" time: %0t , %d xor %d = %d", $time , a , b , result);
+		#5 a = 1; b = 0;
+		#5 $display(" time: %0t , %d xor %d = %d", $time , a , b , result);
+		#5 a = 0; b = 1;
+		#5 $display(" time: %0t , %d xor %d = %d", $time , a , b , result);
+		#5 a = 1; b = 1;
+		#5 $display(" time: %0t , %d xor %d = %d", $time , a , b , result);
+	end
+	
+endmodule

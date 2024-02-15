@@ -1,0 +1,5 @@
+module full_adder(output sum , c_out , input a , b , c_in);
+	my_xor xor1(AxorB , a , b);
+	my_xor xor2(sum , AxorB , c_in);
+	my_and and1(AxorB_AND_c_in , AxorB , c_in);
+	my_and and2(c_out , a , b);

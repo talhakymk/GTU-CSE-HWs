@@ -1,0 +1,44 @@
+module mod_fsm_cu(input reset , input  CLK , );
+	reg [2:0] curr_state, next_state;
+	
+	localparam 	ASG_TEMP = 3'b000,
+					SUB 	= 3'b001,
+					COMP	= 3'b010,
+					SMALL = 3'b011,
+					LARGE	= 3'b100;
+	
+	//State Registers			
+	always @(posedge CLK)
+		begin
+		if(reset)
+			curr_state <= ASG_TEMP;
+		else
+			curr_state <= next_state;
+		end
+		
+	//Next State Logic
+	always @(*)
+		begin
+		case(curr_state)
+		ASG_TEMP:	begin
+						next_state = SUB;
+						
+		SUB: 	begin
+				next_state = COMP;
+				end
+		
+		COMP: begin
+				if(x)
+					next_state = SMALL;
+				else
+					next_state = LARGE;
+				end
+		
+		SMALL: begin
+				 end
+		
+		LARGE: begin
+				 end
+		
+		endcase
+		end

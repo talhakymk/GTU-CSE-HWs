@@ -1,0 +1,7 @@
+module subtractor_32bit(output [31:0] out , input [31:0] a , input [31:0] b);
+not(b_not , b);
+wire cout;
+wire [31:0] two_comp;
+carry_look_ahead_32bit(b_not,00000000000000000000000000000001, 0,two_comp, cout);
+carry_look_ahead_32bit(a,two_comp, 0, out, cout);
+endmodule

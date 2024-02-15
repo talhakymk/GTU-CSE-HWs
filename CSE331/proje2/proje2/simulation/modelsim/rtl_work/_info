@@ -1,0 +1,659 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mstrk/Desktop/deneyis/simulation/modelsim
+valu
+Z1 !s110 1702234733
+!i10b 1
+!s100 HHja2ZeWcnEzBjfP:1V541
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1552:326Zi?YTS`U^baZM0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1702232010
+8C:/Users/mstrk/Desktop/deneyis/deneme1/alu.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/alu.v
+!i122 23
+L0 1 55
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1702234733.000000
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/alu.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1
+Z8 tCvgOpt 0
+vand_16bit
+Z9 !s110 1702234730
+!i10b 1
+!s100 8JaLdg7WdX0zOcS<Y6b3?0
+R2
+IU3XVod[@1f7J:azQ:AV9]0
+R3
+R0
+w1702223550
+8C:/Users/mstrk/Desktop/deneyis/deneme1/and_16bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/and_16bit.v
+!i122 1
+Z10 L0 1 6
+R4
+r1
+!s85 0
+31
+Z11 !s108 1702234730.000000
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/and_16bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/and_16bit.v|
+!i113 1
+R6
+R7
+R8
+vand_32bit
+R9
+!i10b 1
+!s100 ITlZ9FZHcF;D:?S^[:LJ^1
+R2
+IP9KG_60ocH`_5dUc4QMZg1
+R3
+R0
+w1702223532
+8C:/Users/mstrk/Desktop/deneyis/deneme1/and_32bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/and_32bit.v
+!i122 2
+Z12 L0 1 4
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/and_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/and_32bit.v|
+!i113 1
+R6
+R7
+R8
+vand_4bit
+R9
+!i10b 1
+!s100 he1[^=eBN8<g8H_<HV8@10
+R2
+IcNHAAa3GWcV_MBVbL:LLK3
+R3
+R0
+w1701782263
+8C:/Users/mstrk/Desktop/deneyis/deneme1/and_4bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/and_4bit.v
+!i122 0
+R10
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/and_4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/and_4bit.v|
+!i113 1
+R6
+R7
+R8
+vcarry_look_ahead_32bit
+Z13 !s110 1702234732
+!i10b 1
+!s100 Q9aLBFGn21zfOigklME:S1
+R2
+I4?kf`Rl`7^4>Wol[WchmR1
+R3
+R0
+w1702031766
+8C:/Users/mstrk/Desktop/deneyis/deneme1/carry_look_ahead_32bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/carry_look_ahead_32bit.v
+!i122 17
+L0 1 11
+R4
+r1
+!s85 0
+31
+Z14 !s108 1702234732.000000
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/carry_look_ahead_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/carry_look_ahead_32bit.v|
+!i113 1
+R6
+R7
+R8
+vcarry_look_ahead_4bit
+R13
+!i10b 1
+!s100 i:WKJKBJoZ2;Tiih7hPz?1
+R2
+I0dQZ@MeXFef^h=9fP<`e41
+R3
+R0
+w1702033760
+8C:/Users/mstrk/Desktop/deneyis/deneme1/carry_look_ahead_4bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/carry_look_ahead_4bit.v
+!i122 16
+L0 1 32
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/carry_look_ahead_4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/carry_look_ahead_4bit.v|
+!i113 1
+R6
+R7
+R8
+veight_bit_comp
+R13
+!i10b 1
+!s100 3mZl?B4`OKje1YELG_Gc60
+R2
+I2n2g:W>ieB@:ZZH_Q94CM1
+R3
+R0
+w1701873014
+8C:/Users/mstrk/Desktop/deneyis/deneme1/eight_bit_comp.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/eight_bit_comp.v
+!i122 13
+Z15 L0 1 17
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/eight_bit_comp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/eight_bit_comp.v|
+!i113 1
+R6
+R7
+R8
+vfour_bit_comp
+R13
+!i10b 1
+!s100 Ie0kn`B_5g2NzS@QFa1I[0
+R2
+I:LHB=cQ<gQ[13jm_UHW6b1
+R3
+R0
+w1701872479
+8C:/Users/mstrk/Desktop/deneyis/deneme1/four_bit_comp.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/four_bit_comp.v
+!i122 12
+L0 1 18
+R4
+r1
+!s85 0
+31
+Z16 !s108 1702234731.000000
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/four_bit_comp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/four_bit_comp.v|
+!i113 1
+R6
+R7
+R8
+vmod
+R1
+!i10b 1
+!s100 ^kOo=LkNM0IdG7jWEYHoF1
+R2
+I]I1HkF];]zM6XH1ePV`513
+R3
+R0
+w1702215757
+8C:/Users/mstrk/Desktop/deneyis/deneme1/mod.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/mod.v
+!i122 20
+Z17 L0 1 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/mod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/mod.v|
+!i113 1
+R6
+R7
+R8
+vmod_fsm_cu
+R1
+!i10b 1
+!s100 Uk:280?dl3HL8I7bbXN3j2
+R2
+IjX[ie0Wzl5];m6:T7VdN52
+R3
+R0
+w1702220463
+8C:/Users/mstrk/Desktop/deneyis/deneme1/mod_fsm_cu.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/mod_fsm_cu.v
+!i122 21
+L0 1 91
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/mod_fsm_cu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/mod_fsm_cu.v|
+!i113 1
+R6
+R7
+R8
+vmod_fsm_dp
+R1
+!i10b 1
+!s100 LZmzNKJ2Gni[DTcm54;IF3
+R2
+IP@BFG?AUZgiH]C[R@JHZe2
+R3
+R0
+w1702220438
+8C:/Users/mstrk/Desktop/deneyis/deneme1/mod_fsm_dp.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/mod_fsm_dp.v
+!i122 22
+L0 1 23
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/mod_fsm_dp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/mod_fsm_dp.v|
+!i113 1
+R6
+R7
+R8
+vmux_and
+R1
+!i10b 1
+!s100 >I2ohAoMY0B1^D2XC_a>]1
+R2
+Id8@>_]Z[e4R6iI1Ua1SXI0
+R3
+R0
+w1702227633
+8C:/Users/mstrk/Desktop/deneyis/deneme1/mux_and.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/mux_and.v
+!i122 25
+Z18 L0 1 34
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/mux_and.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/mux_and.v|
+!i113 1
+R6
+R7
+R8
+vmy_testbench
+!s110 1702234734
+!i10b 1
+!s100 ?lOhG82[@7cmO^SVEFF8R2
+R2
+IcJWoJGJAm1eMk87nSSbVM0
+R3
+R0
+w1702234718
+8C:/Users/mstrk/Desktop/deneyis/deneme1/my_testbench.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/my_testbench.v
+!i122 26
+L0 1 45
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/my_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/my_testbench.v|
+!i113 1
+R6
+R7
+R8
+vnor_16bit
+R9
+!i10b 1
+!s100 >ODnkCTIS_?oY^TJ`bjO`1
+R2
+I7S6dBPZ6_]HeQ>R?MF?GA2
+R3
+R0
+w1702223263
+8C:/Users/mstrk/Desktop/deneyis/deneme1/nor_16bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/nor_16bit.v
+!i122 4
+R10
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/nor_16bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/nor_16bit.v|
+!i113 1
+R6
+R7
+R8
+vnor_32bit
+Z19 !s110 1702234731
+!i10b 1
+!s100 d2fheEV8hQb>QAn36SM?_0
+R2
+I=0KS3h[@hNRMjm>iT`^bd2
+R3
+R0
+w1702223349
+8C:/Users/mstrk/Desktop/deneyis/deneme1/nor_32bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/nor_32bit.v
+!i122 5
+R12
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/nor_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/nor_32bit.v|
+!i113 1
+R6
+R7
+R8
+vnor_4bit
+R9
+!i10b 1
+!s100 RPH1h22A@Rbmz15TFO:4<0
+R2
+I<BLb4ODS8NU8mD3e;Mm5I0
+R3
+R0
+w1701868509
+8C:/Users/mstrk/Desktop/deneyis/deneme1/nor_4bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/nor_4bit.v
+!i122 3
+R10
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/nor_4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/nor_4bit.v|
+!i113 1
+R6
+R7
+R8
+vnot_32bit
+R1
+!i10b 1
+!s100 z>5Td4QZA@4OH;ZoXBi_=0
+R2
+IFYI1I8Z]H[P07Ic@e1eV_0
+R3
+R0
+w1702041604
+8C:/Users/mstrk/Desktop/deneyis/deneme1/not_32bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/not_32bit.v
+!i122 19
+R18
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/not_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/not_32bit.v|
+!i113 1
+R6
+R7
+R8
+vor_16bit
+R19
+!i10b 1
+!s100 j2BRMi>:I>n:R@]0o^V@91
+R2
+IG^FW:?kgiS]kOnN37HL380
+R3
+R0
+w1702223765
+8C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v
+!i122 6
+R10
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v|
+!i113 1
+R6
+R7
+R8
+vor_32bit
+R19
+!i10b 1
+!s100 I;Rgd<?V6?]WMWd2oiIEN1
+R2
+I8VSOX>LDLWQhgI5ElRNQh2
+R3
+R0
+w1702223744
+8C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v
+!i122 7
+R12
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v|
+!i113 1
+R6
+R7
+R8
+vor_4bit
+R1
+!i10b 1
+!s100 g>Cd`3``>Cz;IZ[fki0gA2
+R2
+IcS8SkAgYmg;kIX?gT>lWZ1
+R3
+R0
+w1701782310
+8C:/Users/mstrk/Desktop/deneyis/deneme1/or_4bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/or_4bit.v
+!i122 24
+R10
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/or_4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/or_4bit.v|
+!i113 1
+R6
+R7
+R8
+vsixteen_bit_comp
+R13
+!i10b 1
+!s100 0LMFd1?c^RCYo`G7=F8k[0
+R2
+I4Ozz5Tz:W?GC:zmDSc>FA3
+R3
+R0
+w1701873337
+8C:/Users/mstrk/Desktop/deneyis/deneme1/sixteen_bit_comp.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/sixteen_bit_comp.v
+!i122 14
+R15
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/sixteen_bit_comp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/sixteen_bit_comp.v|
+!i113 1
+R6
+R7
+R8
+vsubtractor_32bit
+R13
+!i10b 1
+!s100 1OdEMS@E>ih`a0CKjge^43
+R2
+Id6f[a<m`;zMeb;:WFF4a@2
+R3
+R0
+w1702123414
+8C:/Users/mstrk/Desktop/deneyis/deneme1/subtractor_32bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/subtractor_32bit.v
+!i122 18
+R17
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/subtractor_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/subtractor_32bit.v|
+!i113 1
+R6
+R7
+R8
+vthirtytwo_bit_comp
+R13
+!i10b 1
+!s100 cgJ]^ElNOnCIbe?CA78lN3
+R2
+IA<D@o9R6YVVT:iVCBao=^2
+R3
+R0
+w1701873782
+8C:/Users/mstrk/Desktop/deneyis/deneme1/thirtytwo_bit_comp.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/thirtytwo_bit_comp.v
+!i122 15
+R15
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/thirtytwo_bit_comp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/thirtytwo_bit_comp.v|
+!i113 1
+R6
+R7
+R8
+vtwo_bit_comp
+R19
+!i10b 1
+!s100 GYV=GK>]cQeLY?z1n>KRm0
+R2
+IMN0elzDDBjBZ0BPgRH[PQ0
+R3
+R0
+w1701868067
+8C:/Users/mstrk/Desktop/deneyis/deneme1/two_bit_comp.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/two_bit_comp.v
+!i122 11
+L0 1 21
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/two_bit_comp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/two_bit_comp.v|
+!i113 1
+R6
+R7
+R8
+vxor_16bit
+R19
+!i10b 1
+!s100 R^337?X6J8:kb=Xz[@RAA1
+R2
+Il>M4KG@Xcc_GbF7oAE;>=1
+R3
+R0
+w1702223030
+8C:/Users/mstrk/Desktop/deneyis/deneme1/xor_16bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/xor_16bit.v
+!i122 9
+R10
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/xor_16bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/xor_16bit.v|
+!i113 1
+R6
+R7
+R8
+vxor_32bit
+R19
+!i10b 1
+!s100 Si^A4Ye@am:Y_[ZbDzK`<3
+R2
+I^_CPMOhkJ4TYh9Dgo@UUa1
+R3
+R0
+w1702223031
+8C:/Users/mstrk/Desktop/deneyis/deneme1/xor_32bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/xor_32bit.v
+!i122 10
+R12
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/xor_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/xor_32bit.v|
+!i113 1
+R6
+R7
+R8
+vxor_4bit
+R19
+!i10b 1
+!s100 2:0FnzB3]K2^AFQ[e@R1[1
+R2
+IMzzTF7J79AS?H94YlRPKK0
+R3
+R0
+w1701868893
+8C:/Users/mstrk/Desktop/deneyis/deneme1/xor_4bit.v
+FC:/Users/mstrk/Desktop/deneyis/deneme1/xor_4bit.v
+!i122 8
+R10
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/mstrk/Desktop/deneyis/deneme1/xor_4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1|C:/Users/mstrk/Desktop/deneyis/deneme1/xor_4bit.v|
+!i113 1
+R6
+R7
+R8

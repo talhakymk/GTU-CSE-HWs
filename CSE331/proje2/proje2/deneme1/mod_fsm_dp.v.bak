@@ -1,0 +1,29 @@
+module mod_fsm_dp(input CLK ,input make_sub , input make_asg , input make_comp ,input asg_tempp ,input [31:0] a, input [31:0] b, output lt);
+	reg[31:0] temp;
+	wire[31:0] res_sub;
+	wire G,E;
+	
+	always @(posedge CLK)
+		begin
+			if(asg_tempp)
+			temp <= a;
+		end
+		
+	always @(posedge CLK)
+		begin
+			if(make_sub)
+			res_sub = temp - b;
+		end
+		
+	always @(posedge CLK)
+		begin
+			if(make_asg)
+			temp = res_sub;
+		end
+		
+	always @(posedge CLK)
+		begin
+			if(make_comp)
+			thirtytwo_bit_comp comparator(G, lt, E, a, b)
+		end
+		

@@ -1,0 +1,8 @@
+
+State Machine - |alu|mod:mamod|mod_fsm_cu:cu|curr_state
+Name curr_state.COMP curr_state.MAKE_ASGN curr_state.SUB curr_state.ASG_TEMP curr_state.FINAL 
+curr_state.ASG_TEMP 0 0 0 0 0 
+curr_state.SUB 0 0 1 1 0 
+curr_state.MAKE_ASGN 0 1 0 1 0 
+curr_state.COMP 1 0 0 1 0 
+curr_state.FINAL 0 0 0 1 1 

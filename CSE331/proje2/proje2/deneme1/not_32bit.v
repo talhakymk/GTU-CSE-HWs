@@ -1,0 +1,35 @@
+module not_32bit(output [31:0] b , input [31:0] a);
+	not(b[0],a[0]);
+	not(b[1],a[1]);
+	not(b[2],a[2]);
+	not(b[3],a[3]);
+	not(b[4],a[4]);
+	not(b[5],a[5]);
+	not(b[6],a[6]);
+	not(b[7],a[7]);
+	not(b[8],a[8]);
+	not(b[9],a[9]);
+	not(b[10],a[10]);
+	not(b[11],a[11]);
+	not(b[12],a[12]);
+	not(b[13],a[13]);
+	not(b[14],a[14]);
+	not(b[15],a[15]);
+	not(b[16],a[16]);
+	not(b[17],a[17]);
+	not(b[18],a[18]);
+	not(b[19],a[19]);
+	not(b[20],a[20]);
+	not(b[21],a[21]);
+	not(b[22],a[22]);
+	not(b[23],a[23]);
+	not(b[24],a[24]);
+	not(b[25],a[25]);
+	not(b[26],a[26]);
+	not(b[27],a[27]);
+	not(b[28],a[28]);
+	not(b[29],a[29]);
+	not(b[30],a[30]);
+	not(b[31],a[31]);
+endmodule
+	

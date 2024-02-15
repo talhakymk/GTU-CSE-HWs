@@ -1,0 +1,470 @@
+# Reading pref.tcl
+# do project1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/and_4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:50 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/and_4bit.v 
+# -- Compiling module and_4bit
+# 
+# Top level modules:
+# 	and_4bit
+# End time: 21:58:50 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/and_16bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:50 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/and_16bit.v 
+# -- Compiling module and_16bit
+# 
+# Top level modules:
+# 	and_16bit
+# End time: 21:58:50 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/and_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:50 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/and_32bit.v 
+# -- Compiling module and_32bit
+# 
+# Top level modules:
+# 	and_32bit
+# End time: 21:58:50 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/nor_4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:50 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/nor_4bit.v 
+# -- Compiling module nor_4bit
+# 
+# Top level modules:
+# 	nor_4bit
+# End time: 21:58:50 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/nor_16bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:50 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/nor_16bit.v 
+# -- Compiling module nor_16bit
+# 
+# Top level modules:
+# 	nor_16bit
+# End time: 21:58:50 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/nor_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:51 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/nor_32bit.v 
+# -- Compiling module nor_32bit
+# 
+# Top level modules:
+# 	nor_32bit
+# End time: 21:58:51 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:51 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v 
+# -- Compiling module or_16bit
+# 
+# Top level modules:
+# 	or_16bit
+# End time: 21:58:51 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:51 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v 
+# -- Compiling module or_32bit
+# 
+# Top level modules:
+# 	or_32bit
+# End time: 21:58:51 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/xor_4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:51 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/xor_4bit.v 
+# -- Compiling module xor_4bit
+# 
+# Top level modules:
+# 	xor_4bit
+# End time: 21:58:51 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/xor_16bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:51 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/xor_16bit.v 
+# -- Compiling module xor_16bit
+# 
+# Top level modules:
+# 	xor_16bit
+# End time: 21:58:51 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/xor_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:51 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/xor_32bit.v 
+# -- Compiling module xor_32bit
+# 
+# Top level modules:
+# 	xor_32bit
+# End time: 21:58:51 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/two_bit_comp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:51 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/two_bit_comp.v 
+# -- Compiling module two_bit_comp
+# 
+# Top level modules:
+# 	two_bit_comp
+# End time: 21:58:51 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/four_bit_comp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:51 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/four_bit_comp.v 
+# -- Compiling module four_bit_comp
+# 
+# Top level modules:
+# 	four_bit_comp
+# End time: 21:58:52 on Dec 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/eight_bit_comp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:52 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/eight_bit_comp.v 
+# -- Compiling module eight_bit_comp
+# 
+# Top level modules:
+# 	eight_bit_comp
+# End time: 21:58:52 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/sixteen_bit_comp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:52 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/sixteen_bit_comp.v 
+# -- Compiling module sixteen_bit_comp
+# 
+# Top level modules:
+# 	sixteen_bit_comp
+# End time: 21:58:52 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/thirtytwo_bit_comp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:52 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/thirtytwo_bit_comp.v 
+# -- Compiling module thirtytwo_bit_comp
+# 
+# Top level modules:
+# 	thirtytwo_bit_comp
+# End time: 21:58:52 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/carry_look_ahead_4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:52 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/carry_look_ahead_4bit.v 
+# -- Compiling module carry_look_ahead_4bit
+# 
+# Top level modules:
+# 	carry_look_ahead_4bit
+# End time: 21:58:52 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/carry_look_ahead_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:52 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/carry_look_ahead_32bit.v 
+# -- Compiling module carry_look_ahead_32bit
+# 
+# Top level modules:
+# 	carry_look_ahead_32bit
+# End time: 21:58:52 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/subtractor_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:52 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/subtractor_32bit.v 
+# -- Compiling module subtractor_32bit
+# 
+# Top level modules:
+# 	subtractor_32bit
+# End time: 21:58:52 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/not_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:52 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/not_32bit.v 
+# -- Compiling module not_32bit
+# 
+# Top level modules:
+# 	not_32bit
+# End time: 21:58:53 on Dec 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/mod.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:53 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/mod.v 
+# -- Compiling module mod
+# 
+# Top level modules:
+# 	mod
+# End time: 21:58:53 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/mod_fsm_cu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:53 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/mod_fsm_cu.v 
+# -- Compiling module mod_fsm_cu
+# 
+# Top level modules:
+# 	mod_fsm_cu
+# End time: 21:58:53 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/mod_fsm_dp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:53 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/mod_fsm_dp.v 
+# -- Compiling module mod_fsm_dp
+# 
+# Top level modules:
+# 	mod_fsm_dp
+# End time: 21:58:53 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:53 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 21:58:53 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/or_4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:53 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/or_4bit.v 
+# -- Compiling module or_4bit
+# 
+# Top level modules:
+# 	or_4bit
+# End time: 21:58:53 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/mux_and.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:53 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/mux_and.v 
+# -- Compiling module mux_and
+# 
+# Top level modules:
+# 	mux_and
+# End time: 21:58:53 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/mstrk/Desktop/deneyis/deneme1 {C:/Users/mstrk/Desktop/deneyis/deneme1/my_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:58:53 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mstrk/Desktop/deneyis/deneme1" C:/Users/mstrk/Desktop/deneyis/deneme1/my_testbench.v 
+# -- Compiling module my_testbench
+# 
+# Top level modules:
+# 	my_testbench
+# End time: 21:58:54 on Dec 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  my_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" my_testbench 
+# Start time: 21:58:54 on Dec 10,2023
+# Loading work.my_testbench
+# Loading work.alu
+# Loading work.subtractor_32bit
+# Loading work.not_32bit
+# Loading work.carry_look_ahead_32bit
+# Loading work.carry_look_ahead_4bit
+# Loading work.xor_4bit
+# Loading work.and_4bit
+# Loading work.xor_32bit
+# Loading work.xor_16bit
+# Loading work.nor_32bit
+# Loading work.nor_16bit
+# Loading work.nor_4bit
+# Loading work.and_32bit
+# Loading work.and_16bit
+# Loading work.or_32bit
+# Loading work.or_16bit
+# Loading work.or_4bit
+# Loading work.mod
+# Loading work.mod_fsm_cu
+# Loading work.mod_fsm_dp
+# Loading work.thirtytwo_bit_comp
+# Loading work.sixteen_bit_comp
+# Loading work.eight_bit_comp
+# Loading work.four_bit_comp
+# Loading work.two_bit_comp
+# Loading work.mux_and
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/xor_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/exor/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/xor_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/xor_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/exor/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/xor_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/xor_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/exor/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/xor_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/xor_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/exor/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/xor_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/xor_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/exor/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/xor_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/xor_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/exor/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/xor_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/nor_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/enor/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/nor_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/nor_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/enor/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/nor_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/nor_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/enor/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/nor_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/nor_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/enor/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/nor_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/nor_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/enor/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/nor_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/nor_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/enor/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/nor_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/and_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/mand/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/and_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/and_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/mand/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/and_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/and_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/mand/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/and_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/and_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/mand/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/and_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/and_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/mand/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/and_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/and_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/mand/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/and_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/mor/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/mor/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/mor/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/mor/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/mor/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/mor/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/first/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/first/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/first/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/first/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/first/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/first/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/sec/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/sec/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/sec/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/sec/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/sec/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/sec/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/thir/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/thir/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/thir/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/thir/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/thir/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/thir/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/fourr/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/fourr/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/fourr/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/fourr/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/fourr/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/fourr/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/four/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/four/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/four/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/four/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/four/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/four/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/fift/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/fift/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/fift/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/fift/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/fift/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/fift/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/six/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/six/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/six/first File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/six/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'a'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/six/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'b'. The port definition is at: C:/Users/mstrk/Desktop/deneyis/deneme1/or_16bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /my_testbench/nulursun/six/second File: C:/Users/mstrk/Desktop/deneyis/deneme1/or_32bit.v Line: 3
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mstrk  Hostname: TALHA  ProcessID: 15676
+#           Attempting to use alternate WLF file "./wlftrz6767".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftrz6767
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# 23 mod 5 = 3
+# 00000000000000000000000000000111 and 00000000000000000000000000000010 = 00000000000000000000000000000010
+# 00000110000000000000000000000111 or 00000000000000000000000000000010 = 00000110000000000000000000000111
+# 01110000000000001100000000000111 xor 00100000000000000000000000000010 = 01010000000000001100000000000101
+# 01111100000000000000000000000111 nor 01100000000000000000000000000010 = 10000011111111111111111111111000
+# is 00000000000000000000000000000001 less than 00000000000000000000000000000110 = 11111111111111111111111111111111 (1 is yes 0 is no)
+# 15 add 2 = 00000000000000000000000000010001
+# 23 sub 2 = 00000000000000000000000000010101
+# Break key hit
+# Simulation stop requested.
+# End time: 21:59:12 on Dec 10,2023, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 68
